@@ -1,0 +1,31 @@
+.col1{
+    background-color: rgb(234, 234, 95);
+    color:  white;
+}
+.col2{
+    background-color: lightblue;
+    
+}
+.col4{
+    background-color: lightpink;
+    color:  white;
+}
+.col5{
+    background-color: skyblue;
+    color:  white;
+}
+.col6{
+    background-color: rgb(237, 82, 105);
+    color:  white;
+}
+.col7{
+    background-color: rgb(192, 238, 101);
+    color:  white;
+}
+.col8{
+    background-color: rgb(117, 199, 117);
+    
+}
+.col{
+    border: solid;
+}
