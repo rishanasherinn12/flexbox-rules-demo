@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="grid.css">
+    <style>
+    .container div{
+        
+        gap: 20px;
+        padding: 20px;
+        
+    }
+    .container{
+       gap: 20px;
+       
+    }
+    
+    
+</style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <h1 class="title display-4 fw-bold grid text-center">Flexbox Rules!</h1>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col col1 fw-bold d-flex justify-content-center align-items-center"><span class="yay fs-1">yay!</span></div>
+            <div class="col col2 fw-bold d-flex justify-content-center align-items-center fs-4">flexbox 4ever</div>
+            <div class="col bg-danger text-white"><img src="data:image/png;base64,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" alt="GT Holidays logo" class="logo me-2"><span class="fw-semibold">
+            </span></div>
+            <div class="col col4 fw-bold d-flex justify-content-center align-items-center fs-4">Easy</div>
+        </div>
+        <div class="row">
+            <div class="col col5"><h6 class="fw-bold fs-3">Delicious</h6><br><img src="data:image/png;base64,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" alt="" class="logo me-2">
+            </div>
+            
+            <div class="col col6 fw-bold d-flex justify-content-center align-items-center fs-4">Super good<span class="emoji">👍</span></div>
+            
+            <div class="col col7 fw-bold d-flex justify-content-center align-items-center fs-4">1 of ur 5 a day!<span class="emoji">🍓</span></div>
+            <div class="col col8 fw-bold d-flex justify-content-center align-items-center fs-5">U won't believe wot hapened next...</div>
+        </div>
+    </div>
+</body>
+</html>
