@@ -1,4 +1,4 @@
-# flexbox-rules-demo
+# flexbox-rules
 A simple project demonstrating CSS Flexbox rules and Bootstrap grid alignment. 
 ## Features 
 - Uses Bootstrap 5 grid system
